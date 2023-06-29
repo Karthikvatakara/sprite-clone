@@ -1,0 +1,221 @@
+@import url("C:/Users/dell/Desktop/Sprrite/Aktiv.Grotesk/Aktiv Grotesk");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Karthik;
+    src: url(Font/AktivGrotesk-Black.ttf);
+}
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #00A74A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    
+
+}
+.header ul li{
+   
+    list-style: none;
+    align-items: center;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #00A74A;
+    text-decoration: none;
+
+}
+.logo {
+    width: 220px;
+    height: 90px;
+    padding: 20px 10px 0 20px;
+    margin-left: 20px;
+    background-color: #00A74A;
+    
+}
+.header .navbar1 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+    background-color:#00A74A;
+    margin-right: 25px;
+    
+   
+}
+.navbar{
+    background-color:#00A74A;
+    margin-left: 0;
+    display: flex;
+    position: absolute;
+    top: 8;
+    left: 242px; 
+    font-family: karthik;
+    font-size: 20px;
+    display: flex;
+   
+}   
+
+.header ul li a{
+    text-decoration: none;
+    font-family: karthik;
+    color: aliceblue;
+    font-size: 14px;
+    margin-right: 20px;
+     
+}
+.main{
+    width: 100%;
+    height: 525px;
+    display: flex;
+      
+    background-color: black;
+}
+.contentbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 55px;
+    margin-top: 90px;
+}
+.content{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 86.4px;
+    font-family: karthik;
+    
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+       align-content: flex-end;
+}
+.mainimage img{
+    position: absolute;
+    right: 0px;  
+    padding-bottom: 80px;
+}
+.button{
+    position: absolute;
+    margin-top: 482px;
+    margin-left: 50px;
+    background-color: #ffd100;
+    height:44px;
+    width: 169.94px;
+    border: none;
+    font-weight: 800;
+    
+    
+}
+.secondmain1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.sub1{
+    margin-top: 30px;
+    margin-left: 95px;
+}
+.sub2{
+    margin-top: 35px;
+    margin-left: 50px;
+    font-family: karthik;
+    }
+    .sub2 h3{
+        font-size: 53px;
+    }
+    .sub2 h4{
+        font-size: 25px;
+    }
+    .secondmain2{
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+    .sub3{
+        font-size: 45px;
+        color: #00A74A;
+        font-family: karthik;
+        margin-top: 220px;
+        margin-left: 75px;
+        font-weight: 700px;
+    }
+    .sub4{
+        margin-top: 120px;
+    }
+    .footer{
+        background-color: #00A74A;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+    .footerlogo{
+      padding-top: 120px;
+      padding-left: 200px;
+    }
+    .iconlist{
+        margin-top: 80px;
+        margin-left: 100px;
+        color: white;
+        font-family: karthik;
+    }
+    
+    .iconlist1{
+        margin-top: 80px;
+        margin-left: 100px;
+        color: white;
+        font-family: karthik;
+        font-size: 12PX;
+        font-weight: 400;
+        line-height: 20px;
+
+    }
+    .contacticon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        font-family: karthik;
+        font-size: 12PX;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .contacticon h3{
+        text-align: center;
+    }
+    .footer2{
+        background-color:#00A74A;
+    }
+    .iconlist1 ul li{
+        list-style: none;
+    }
+    .button1{
+        position: absolute;
+        top:  980px; 
+        left:  590px;
+        background-color: #ffd100;
+    height: 34px;
+    width: 155px;
+    border: none;
+    font-weight: 800;
+    }
+    .pro{
+        width: 500px;
+        height: 65px;
+        background: black;
+    }
+    
+
+       .navbar1 .effect {
+        transition: background-image 0.3s ease-in-outs;
+       }
+    
